@@ -1,0 +1,125 @@
+{
+  "_note1": "KEEP THIS FILE! Check it into a version control system (VCS) like git.",
+  "_note2": "ObjectBox manages crucial IDs for your object model. See docs for details.",
+  "_note3": "If you have VCS merge conflicts, you must resolve them according to ObjectBox docs.",
+  "entities": [
+    {
+      "id": "1:5555872261757048357",
+      "lastPropertyId": "3:4198584793457499620",
+      "name": "districtModel",
+      "properties": [
+        {
+          "id": "1:6643547793478532241",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:8688731400272430432",
+          "name": "idDistrict",
+          "type": 6
+        },
+        {
+          "id": "3:4198584793457499620",
+          "name": "name",
+          "type": 9
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "2:4331466328017722865",
+      "lastPropertyId": "4:8252040764748573893",
+      "name": "upazillaModel",
+      "properties": [
+        {
+          "id": "1:3329337728251150349",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:3037439750394560479",
+          "name": "districtId",
+          "type": 6
+        },
+        {
+          "id": "3:8840143007023956458",
+          "name": "name",
+          "type": 9
+        },
+        {
+          "id": "4:8252040764748573893",
+          "name": "upazillaID",
+          "type": 6
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "3:663662894027871055",
+      "lastPropertyId": "3:6597041937331313954",
+      "name": "parcelTypeModel",
+      "properties": [
+        {
+          "id": "1:1144201017441049393",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:119230464402146996",
+          "name": "parcelID",
+          "type": 6
+        },
+        {
+          "id": "3:6597041937331313954",
+          "name": "parcelType",
+          "type": 9
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "5:5028831164552940882",
+      "lastPropertyId": "3:2572108945735617410",
+      "name": "deliverySpeedModel",
+      "properties": [
+        {
+          "id": "1:679129927270688373",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:8254647830386428814",
+          "name": "idspeed",
+          "type": 6
+        },
+        {
+          "id": "3:2572108945735617410",
+          "name": "label",
+          "type": 9
+        }
+      ],
+      "relations": []
+    }
+  ],
+  "lastEntityId": "5:5028831164552940882",
+  "lastIndexId": "0:0",
+  "lastRelationId": "0:0",
+  "lastSequenceId": "0:0",
+  "modelVersion": 5,
+  "modelVersionParserMinimum": 5,
+  "retiredEntityUids": [
+    258803367532184255
+  ],
+  "retiredIndexUids": [],
+  "retiredPropertyUids": [
+    3775897267175351761,
+    524324501119972050,
+    6241221855386852520
+  ],
+  "retiredRelationUids": [],
+  "version": 1
+}
